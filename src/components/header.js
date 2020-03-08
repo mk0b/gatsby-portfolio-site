@@ -5,7 +5,7 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `rgb(52,71,86)`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -27,6 +27,30 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <h3 style={{ margin: 20 }}>
+        <Link
+          to="/about"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+            float: 'right',
+          }}
+          >
+          About
+        </Link>
+      </h3>
+      <h3 style={{ margin: 20 }}>
+        <Link
+          to="/portfolio"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+            float: 'right',
+          }}
+          >
+          Portfolio
+        </Link>
+        </h3>
     </div>
   </header>
 )
