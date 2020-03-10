@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Welcome.`,
+    title: `My Work`,
     description: `Megan Katherine O'Brien's website. About, portfolio projects, and resume.`,
     author: `Megan Katherine O'Brien`,
   },

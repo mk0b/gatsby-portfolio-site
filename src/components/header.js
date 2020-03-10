@@ -14,43 +14,20 @@ const Header = ({ siteTitle }) => (
         margin: `0 auto`,
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
+        textAlign: 'center',
       }}
     >
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `#f6f6f6`,
             textDecoration: `none`,
           }}
         >
           {siteTitle}
         </Link>
       </h1>
-      <h3 style={{ margin: 20 }}>
-        <Link
-          to="/about"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-            float: 'right',
-          }}
-          >
-          About
-        </Link>
-      </h3>
-      <h3 style={{ margin: 20 }}>
-        <Link
-          to="/portfolio"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-            float: 'right',
-          }}
-          >
-          Portfolio
-        </Link>
-        </h3>
     </div>
   </header>
 )

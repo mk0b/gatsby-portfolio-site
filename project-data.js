@@ -1,5 +1,7 @@
 //data for projects to be grabbed with graphQL
 //TODO: get and add images to use / structure like project 6 data.json
+//have no description and only one image?
+//change around the order of the ones I want to show.
 
 module.exports = {
     projects: [
