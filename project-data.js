@@ -78,7 +78,7 @@ module.exports = {
                 `Fetch API`,
                 `React.js`
             ],
-            live_link: ``,
+            live_link: `https://mk0b.github.io/react-gallery-app-project-7/#/horses`,
             github_link: `https://github.com/mk0b/react-gallery-app-project-7`,
             image: ``
         },
