@@ -635,7 +635,7 @@ pre tt:after {
 
 .footer-icons-social {
   padding: 10px;
-  display: inline;
+  display: inline-block;
   text-align: center;
   float: right;
 }
