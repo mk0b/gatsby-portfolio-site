@@ -620,3 +620,10 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+
+}
