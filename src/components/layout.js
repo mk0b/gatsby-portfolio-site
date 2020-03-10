@@ -10,6 +10,7 @@ import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
 import Header from './header';
+import LinkedIn from '../images/linkedin_icon.png';
 import "./layout.css";
 
 const Layout = ({ children }) => {
@@ -44,6 +45,10 @@ const Layout = ({ children }) => {
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <div>
+            <a href="https://www.linkedin.com/in/megankob/" target="blank"><img className="LinkedIn" src={LinkedIn}></img></a>
+            <a href="https://github.com/mk0b" target="blank">Github Icon</a>
+          </div>
           
         </footer>
       </div>
