@@ -10,8 +10,10 @@ import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
 import Header from './header';
+import Emoji from './emoji';
 import LinkedIn from '../images/linkedin_icon.png';
 import GitHub from '../images/github_icon_2.svg';
+import Gatsby from '../images/gatsby-icon.png';
 import "./layout.css";
 
 const Layout = ({ children }) => {
@@ -44,8 +46,9 @@ const Layout = ({ children }) => {
           }}
         >
           © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <Emoji symbol="💜" label="purple heart" />
+          &
+          <a href="https://www.gatsbyjs.org"><img className="Gatsby" src={Gatsby}></img></a>
           <div>
             <a href="https://www.linkedin.com/in/megankob/" target="blank"><img className="LinkedIn" src={LinkedIn}></img></a>
             <a href="https://github.com/mk0b" target="blank"><img className="github" src={GitHub}></img></a>
