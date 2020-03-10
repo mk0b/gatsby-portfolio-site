@@ -14,6 +14,7 @@ import Emoji from './emoji';
 import LinkedIn from '../images/linkedin.png';
 import GitHub from '../images/github_icon_2.svg';
 import Gatsby from '../images/gatsby-icon.png';
+import Treehouse from '../images/treehouse_icon.png';
 import "./layout.css";
 
 const Layout = ({ children }) => {
@@ -40,20 +41,21 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer
           style={{ 
-            background: `rgb(52,71,86)`,
-            color: `#f6f6f6`,
+            color: `rgb(52,71,86)`,
             textDecoration: `none`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}| Made with
           <Emoji symbol="💜" label="purple heart" />
           &
-          <a href="https://www.gatsbyjs.org" target="blank"><img className="footer-icons" src={Gatsby}></img></a>
-          <div>
-            <a href="https://www.linkedin.com/in/megankob/" target="blank"><img className="footer-icons" src={LinkedIn}></img></a>
-            <a href="https://github.com/mk0b" target="blank"><img className="footer-icons" src={GitHub}></img></a>
+          <div className="gatsby-icon">
+            <span><a href="https://www.gatsbyjs.org" target="blank"><img className="footer-icons" src={Gatsby}></img></a></span>
           </div>
-          
+          <div className="footer-icons-social">
+            <span><a href="https://teamtreehouse.com/megankatherineobrien" target="blank"><img className="footer-icons" src={Treehouse}></img></a></span>
+            <span><a href="https://github.com/mk0b" target="blank"><img className="footer-icons" src={GitHub}></img></a></span>
+            <span><a href="https://www.linkedin.com/in/megankob/" target="blank"><img className="footer-icons" src={LinkedIn}></img></a></span>
+          </div>
         </footer>
       </div>
     </>

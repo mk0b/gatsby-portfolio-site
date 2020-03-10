@@ -625,10 +625,29 @@ pre tt:after {
   padding: 0px;
   width: 40px;
   text-decoration: none;
+  vertical-align: middle;
+  margin-top: 10px;
 }
 
 .footer-icons:hover {
   opacity: 0.7;
+}
+
+.footer-icons-social {
+  padding: 10px;
+  display: inline;
+  text-align: center;
+  float: right;
+}
+
+.footer-icons-social span {
+  padding: 15px;
+}
+
+.gatsby-icon {
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
 }
 
 
