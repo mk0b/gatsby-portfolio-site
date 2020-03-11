@@ -650,4 +650,30 @@ pre tt:after {
   text-align: center;
 }
 
+.tags ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
 
+.tags li {
+  width: 15%;
+  margin-bottom: 1em;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+}
+
+.tags a {
+  display: block;
+  background: rgb(52,71,86);
+  border-radius: 8px;
+  padding: 5px;
+  color: #f6f6f6;
+  text-decoration: none;
+}
+
+.tags .active,
+.tags a:hover {
+  background-color: #7984a7;
+}

@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby";
 
 import Header from './header';
 import Emoji from './emoji';
+import Tags from './tags';
 import LinkedIn from '../images/linkedin.png';
 import GitHub from '../images/github_icon_2.svg';
 import Gatsby from '../images/gatsby-icon.png';
@@ -31,6 +32,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
+      
       <div
         style={{
           margin: `0 auto`,
@@ -38,6 +40,7 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
+        <Tags />
         <main>{children}</main>
         <footer
           style={{ 
