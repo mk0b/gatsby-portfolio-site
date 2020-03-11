@@ -10,7 +10,7 @@
             ],
             "live_link": "https://mk0b.github.io/Random-Quote-Generator-Project-1/",
             "github_link": "https://github.com/mk0b/Random-Quote-Generator-Project-1",
-            "image": ""
+            "image": "../src/images/project1.png"
         },
         {
             "id": "2",
@@ -22,7 +22,7 @@
             ],
             "live_link": "https://mk0b.github.io/List-Pagination-and-Filtering-Project-2/",
             "github_link": "https://github.com/mk0b/List-Pagination-and-Filtering-Project-2",
-            "image": ""
+            "image": "../src/images/project2.png"
         },
         {
             "id": "4",
@@ -35,7 +35,7 @@
             ],
             "live_link": "https://mk0b.github.io/OOP-Game-Show-Project-4/",
             "github_link": "https://github.com/mk0b/OOP-Game-Show-Project-4",
-            "image": ""
+            "image": "../src/images/project4.png"
         },
         {
             "id": "3",
@@ -48,7 +48,7 @@
             ],
             "live_link": "https://mk0b.github.io/Interactive-Form-Project-3/",
             "github_link": "https://github.com/mk0b/Interactive-Form-Project-3",
-            "image": ""
+            "image": "../src/images/project3.png"
         },
         {
             "id": "5",
@@ -61,7 +61,7 @@
             ],
             "live_link": "https://mk0b.github.io/Public-API-Requests-Project-5/",
             "github_link": "https://github.com/mk0b/Public-API-Requests-Project-5",
-            "image": ""
+            "image": "../src/images/project5.png"
         },
         {
             "id": "7",
@@ -75,7 +75,7 @@
             ],
             "live_link": "https://mk0b.github.io/react-gallery-app-project-7/#/horses",
             "github_link": "https://github.com/mk0b/react-gallery-app-project-7",
-            "image": ""
+            "image": "../src/images/project7.png"
         },
         {
             "id": "8",

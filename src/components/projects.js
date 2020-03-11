@@ -19,6 +19,8 @@ const Projects = () => {
     const projectsArray = projectData.dataJson.projects;
     console.log('Projects Array', projectsArray);
 
+    //use a for each here to go through each and render out the gallery content
+
     return (
         <div className="project-container">
             <p>Projects will show here.</p>
