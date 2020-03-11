@@ -1,7 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import Image from './image';
+import Project from './project';
 
 const Projects = () => {
     //getting my projects json data with graphql!
@@ -9,6 +9,7 @@ const Projects = () => {
         query ProjectDataQuery {
             dataJson {
                 projects {
+                    id
                     project_name
                     technologies
                     live_link
@@ -20,13 +21,24 @@ const Projects = () => {
     `);
     const projectsArray = projectData.dataJson.projects;
     console.log('Projects Array', projectsArray);
-
-    //use a for each here to go through each and render out the gallery content
+    
+    //use map to create a new array and pass through to project.
+    const projects = projectsArray.map(project => {
+        return (
+            <Project 
+                key={project.id} 
+                name={project.project_name}
+                technologies={project.technologies}
+                live_link={project.live_link}
+                github_link={project.github_link}
+                image={project.image}
+            />
+        );
+    });
 
     return (
         <div className="project-container">
-            <p>Projects will show here.</p>
-            <Image />
+            {projects}
         </div>
     );
 };
