@@ -16,10 +16,11 @@ const Projects = () => {
             }
         }
     `);
-    console.log('Project Data: ', projectData);
+    const projectsArray = projectData.dataJson.projects;
+    console.log('Projects Array', projectsArray);
 
     return (
-        <div>
+        <div className="project-container">
             <p>Projects will show here.</p>
         </div>
     );

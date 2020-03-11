@@ -55,12 +55,12 @@ const Layout = ({ children }) => {
           <Emoji symbol="💜" label="purple heart" />
           &
           <div className="gatsby-icon">
-            <span><a href="https://www.gatsbyjs.org" target="blank"><img className="footer-icons" src={Gatsby}></img></a></span>
+            <span><a href="https://www.gatsbyjs.org" target="blank"><img className="footer-icons" src={Gatsby} alt="Gatsby clickable logo."></img></a></span>
           </div>
           <div className="footer-icons-social">
-            <span><a href="https://teamtreehouse.com/megankatherineobrien" target="blank"><img className="footer-icons" src={Treehouse}></img></a></span>
-            <span><a href="https://github.com/mk0b" target="blank"><img className="footer-icons" src={GitHub}></img></a></span>
-            <span><a href="https://www.linkedin.com/in/megankob/" target="blank"><img className="footer-icons" src={LinkedIn}></img></a></span>
+            <span><a href="https://teamtreehouse.com/megankatherineobrien" target="blank"><img className="footer-icons" src={Treehouse} alt="Treehouse clickable logo."></img></a></span>
+            <span><a href="https://github.com/mk0b" target="blank"><img className="footer-icons" src={GitHub} alt="Github clickable logo."></img></a></span>
+            <span><a href="https://www.linkedin.com/in/megankob/" target="blank"><img className="footer-icons" src={LinkedIn} alt="LinkedIn clickable logo."></img></a></span>
           </div>
         </footer>
       </div>
