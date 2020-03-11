@@ -5,13 +5,14 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react";
-import PropTypes from "prop-types";
-import { useStaticQuery, graphql } from "gatsby";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { useStaticQuery, graphql } from 'gatsby';
 
 import Header from './header';
 import Emoji from './emoji';
 import Tags from './tags';
+import Projects from './projects';
 import LinkedIn from '../images/linkedin.png';
 import GitHub from '../images/github_icon_2.svg';
 import Gatsby from '../images/gatsby-icon.png';
@@ -41,7 +42,9 @@ const Layout = ({ children }) => {
         }}
       >
         <Tags />
-        <main>{children}</main>
+        <main>
+          <Projects />
+        </main>
         <footer
           style={{ 
             color: `rgb(52,71,86)`,
