@@ -1,6 +1,8 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
+import Image from './image';
+
 const Projects = () => {
     //getting my projects json data with graphql!
     const projectData = useStaticQuery(graphql`
@@ -24,6 +26,7 @@ const Projects = () => {
     return (
         <div className="project-container">
             <p>Projects will show here.</p>
+            <Image />
         </div>
     );
 };
