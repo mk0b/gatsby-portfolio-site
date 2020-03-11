@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `My Work`,
-    description: `Megan Katherine O'Brien's website. About, portfolio projects, and resume.`,
+    description: `Megan Katherine O'Brien's portfolio website.`,
     author: `Megan Katherine O'Brien`,
   },
   plugins: [
@@ -11,6 +11,14 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/data`,
       },
     },
     `gatsby-transformer-sharp`,
