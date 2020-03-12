@@ -55,7 +55,9 @@ const Projects = () => {
 
     return (
         <div className="project-container">
-            {projects}
+            <ul>
+                {projects}
+            </ul>
         </div>
     );
 };

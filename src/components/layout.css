@@ -677,3 +677,26 @@ pre tt:after {
 .tags a:hover {
   background-color: #7984a7;
 }
+
+.project-container ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+}
+
+.project-container ul li {
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 767px)  {
+
+  .photo-container li {
+    margin: auto;
+  }
+}

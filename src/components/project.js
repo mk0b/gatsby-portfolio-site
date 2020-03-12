@@ -9,11 +9,11 @@ import Image from './image';
 const Project = (props) => {
 
     return(
-        <div className="project-card">
+        <li>
             <Image imageData={props.imageData} />
             <h3>{props.name}</h3>
             <p>{props.technologies}</p>
-        </div>
+        </li>
     );
 };
 
