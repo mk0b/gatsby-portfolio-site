@@ -10,11 +10,15 @@ import Img from 'gatsby-image';
  * */
 
 const Image = (props) => {
-  //setting up variables to pass into the static query to get the current image
-  const variables = {
-    image: props.image
-  }
+  console.log(props.imageData);
+  
+  return <Img fixed={props.imageData.src.childImageSharp.fixed} alt={props.imageData.name} />
+}
 
+export default Image;
+
+
+/* 
   //$image: String! $image
   const data = useStaticQuery(graphql`
     query {
@@ -30,8 +34,4 @@ const Image = (props) => {
       }
     }
   `);
-
-  return <Img fixed={data.image.childImageSharp.fixed} alt={props.name} />
-}
-
-export default Image;
+*/

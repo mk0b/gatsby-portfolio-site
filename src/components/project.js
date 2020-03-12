@@ -11,7 +11,7 @@ const Project = (props) => {
 
     return(
         <div className="project-card">
-            <Image image={props.image} id={props.name} />
+            <Image imageData={props.imageData} id={props.imageData.name} />
             <h3>{props.name}</h3>
             <p>{props.technologies}</p>
         </div>

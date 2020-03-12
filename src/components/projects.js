@@ -4,25 +4,43 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Project from './project';
 
 const Projects = () => {
-    //getting my projects json data with graphql!
+    //graphql call from allDataJSOn trying to get the sharp info on images.
+    //did it this way based off this amazing thread that took me two days to find: https://github.com/gatsbyjs/gatsby/issues/8312 
     const projectData = useStaticQuery(graphql`
-        query ProjectDataQuery {
-            dataJson {
-                projects {
-                    id
-                    project_name
-                    technologies
-                    live_link
-                    github_link
+    query ProjectData {
+            allDataJson {
+                edges {
+                    node {
+                        projects {
+                            id
+                            project_name
+                            technologies
+                            live_link
+                            github_link
+                            image {
+                                name
+                                src {
+                                    childImageSharp {
+                                        fixed {
+                                            ...GatsbyImageSharpFixed
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
     `);
-    const projectsArray = projectData.dataJson.projects;
-    console.log('Projects Array', projectsArray);
+    //console.log('Project Data All Json Image Sharp: ', projectData);
+
+    const projectsArray = projectData.allDataJson.edges[0].node.projects;
+    console.log('New projects array', projectsArray);
     
-    //use map to create a new array and pass through to project.
+    //use map to create a new array and pass through data to idv project.
     const projects = projectsArray.map(project => {
+        console.log(project.image);
         return (
             <Project 
                 key={project.id} 
@@ -30,7 +48,7 @@ const Projects = () => {
                 technologies={project.technologies}
                 live_link={project.live_link}
                 github_link={project.github_link}
-                image={project.image}
+                imageData={project.image}
             />
         );
     });

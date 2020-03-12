@@ -2,31 +2,25 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
 const Test = () => {
-    //graphql call from allDataJSOn trying to get the sharp info on images.
-        const projectDataAllJSON = useStaticQuery(graphql`
-        query ProjectData {
-            allDataJson {
-                edges {
-                    node {
-                        projects {
-                            image {
-                                name
-                                src {
-                                    childImageSharp {
-                                        fixed {
-                                            ...GatsbyImageSharpFixed
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
+
+
+        //getting my projects json data with graphql!
+        const projectData = useStaticQuery(graphql`
+        query ProjectDataQuery {
+            dataJson {
+                projects {
+                    id
+                    project_name
+                    technologies
+                    live_link
+                    github_link
                 }
             }
         }
     `);
-
-    console.log('Project Data All Json Image Sharp: ', projectDataAllJSON);
+    const projectsArray = projectData.dataJson.projects;
+    //console.log('Projects Array', projectsArray);
+    
 
     return (
         <div>
