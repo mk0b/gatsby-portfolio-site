@@ -10,9 +10,8 @@ const Project = (props) => {
 
     return(
         <li>
-            <Image imageData={props.imageData} />
             <h3>{props.name}</h3>
-            <p>{props.technologies}</p>
+            <Image imageData={props.imageData} />
         </li>
     );
 };

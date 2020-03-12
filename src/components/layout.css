@@ -630,7 +630,7 @@ pre tt:after {
 }
 
 .footer-icons:hover {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .footer-icons-social {
@@ -642,6 +642,14 @@ pre tt:after {
 
 .footer-icons-social span {
   padding: 15px;
+}
+
+.footer-icons-social-header {
+  padding-top: 15px;
+}
+
+.footer-icons-social-header span {
+  padding: 8px;
 }
 
 .gatsby-icon {

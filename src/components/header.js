@@ -1,6 +1,10 @@
 import PropTypes from "prop-types";
 import React from "react";
 
+import LinkedIn from '../images/linkedin.png';
+import GitHub from '../images/github_icon_2.svg';
+import Treehouse from '../images/treehouse_icon.png';
+
 const Header = ({ siteTitle }) => (
   <header
     style={{
@@ -12,7 +16,8 @@ const Header = ({ siteTitle }) => (
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        paddingTop: '10px',
+        paddingBottom: '0px',
         textAlign: 'center',
       }}
     >
@@ -32,6 +37,11 @@ const Header = ({ siteTitle }) => (
       >
         Developer | Wanderer | Community Builder | Dancer | Animal Lover | Life Long Learner
       </p>
+      <div className="footer-icons-social-header">
+            <span><a href="https://teamtreehouse.com/megankatherineobrien" target="blank"><img className="footer-icons" src={Treehouse} alt="Treehouse clickable logo."></img></a></span>
+            <span><a href="https://github.com/mk0b" target="blank"><img className="footer-icons" src={GitHub} alt="Github clickable logo."></img></a></span>
+            <span><a href="https://www.linkedin.com/in/megankob/" target="blank"><img className="footer-icons" src={LinkedIn} alt="LinkedIn clickable logo."></img></a></span>
+          </div>
     </div>
   </header>
 )
