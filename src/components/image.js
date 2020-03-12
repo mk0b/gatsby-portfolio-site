@@ -1,5 +1,4 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 /*
@@ -9,29 +8,7 @@ import Img from 'gatsby-image';
  * component, rather than having to pass the image data down from pages. 
  * */
 
-const Image = (props) => {
-  console.log(props.imageData);
-  
-  return <Img fixed={props.imageData.src.childImageSharp.fixed} alt={props.imageData.name} />
-}
+const Image = (props) => (<Img fixed={props.imageData.src.childImageSharp.fixed} alt={props.imageData.name} />);
+
 
 export default Image;
-
-
-/* 
-  //$image: String! $image
-  const data = useStaticQuery(graphql`
-    query {
-      image: file(relativePath: { eq: "project4.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
-          }
-          fixed(width: 400) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-    }
-  `);
-*/

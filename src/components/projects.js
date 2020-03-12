@@ -36,7 +36,7 @@ const Projects = () => {
     //console.log('Project Data All Json Image Sharp: ', projectData);
 
     const projectsArray = projectData.allDataJson.edges[0].node.projects;
-    console.log('New projects array', projectsArray);
+    //console.log('New projects array', projectsArray);
     
     //use map to create a new array and pass through data to idv project.
     const projects = projectsArray.map(project => {
