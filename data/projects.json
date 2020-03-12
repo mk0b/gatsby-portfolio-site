@@ -1,33 +1,93 @@
 {
     "projects": [
         {
-            "id": "1",
-            "project_name": "Random Quote Generator",
+            "id": "10",
+            "project_name": "Full Stack App with Rest API",
             "technologies": [
                 "JavaScript",
+                "React.js",
                 "HTML",
-                "CSS"
+                "CSS",
+                "Node.js",
+                "Express",
+                "SQLite3",
+                "Sequelize",
+                "Rest API"
             ],
-            "live_link": "https://mk0b.github.io/Random-Quote-Generator-Project-1/",
-            "github_link": "https://github.com/mk0b/Random-Quote-Generator-Project-1",
+            "live_link": "",
+            "github_link": "https://github.com/mk0b/full-stack-react-rest-api-project-10",
             "image": {
-                "name": "Random Quote Generator Image",
-                "src": "../src/images/project1.png"
+                "name": "Full Stack App with Rest API Image",
+                "src": "../src/images/project10.png"
             }
         },
         {
-            "id": "2",
-            "project_name": "List Pagination and Filtering",
+            "id": "9",
+            "project_name": "REST API",
+            "technologies": [
+                "JavaScript",
+                "Node.js",
+                "Express",
+                "SQLite3",
+                "Sequelize",
+                "Rest API"
+            ],
+            "github_link": "https://github.com/mk0b/rest-api-project-9",
+            "image": {
+                "name": "REST API Image",
+                "src": "../src/images/project9.png"
+            }
+        },
+        {
+            "id": "8",
+            "project_name": "SQL Library Manager",
             "technologies": [
                 "JavaScript",
                 "HTML",
-                "CSS"
+                "CSS",
+                "Node.js",
+                "Express",
+                "SQLite3",
+                "Sequelize"
             ],
-            "live_link": "https://mk0b.github.io/List-Pagination-and-Filtering-Project-2/",
-            "github_link": "https://github.com/mk0b/List-Pagination-and-Filtering-Project-2",
+            "live_link": "",
+            "github_link": "https://github.com/mk0b/sql-library-manager-project-8",
             "image": {
-                "name": "List Pagination and Filtering Image",
-                "src": "../src/images/project2.png"
+                "name": "SQL Library Manager Image",
+                "src": "../src/images/project8.png"
+            }
+        },
+        {
+            "id": "7",
+            "project_name": "Gify Search",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Fetch API",
+                "React.js"
+            ],
+            "live_link": "https://mk0b.github.io/react-gallery-app-project-7/#/horses",
+            "github_link": "https://github.com/mk0b/react-gallery-app-project-7",
+            "image": {
+                "name": "Gify Search Image",
+                "src": "../src/images/project7.png"
+            }
+        },
+        {
+            "id": "5",
+            "project_name": "Public API Requests",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Fetch API"
+            ],
+            "live_link": "https://mk0b.github.io/Public-API-Requests-Project-5/",
+            "github_link": "https://github.com/mk0b/Public-API-Requests-Project-5",
+            "image": {
+                "name": "Public API Requests Image",
+                "src": "../src/images/project5.png"
             }
         },
         {
@@ -63,92 +123,32 @@
             }
         },
         {
-            "id": "5",
-            "project_name": "Public API Requests",
+            "id": "2",
+            "project_name": "List Pagination and Filtering",
             "technologies": [
                 "JavaScript",
                 "HTML",
-                "CSS",
-                "Fetch API"
+                "CSS"
             ],
-            "live_link": "https://mk0b.github.io/Public-API-Requests-Project-5/",
-            "github_link": "https://github.com/mk0b/Public-API-Requests-Project-5",
+            "live_link": "https://mk0b.github.io/List-Pagination-and-Filtering-Project-2/",
+            "github_link": "https://github.com/mk0b/List-Pagination-and-Filtering-Project-2",
             "image": {
-                "name": "Public API Requests Image",
-                "src": "../src/images/project5.png"
+                "name": "List Pagination and Filtering Image",
+                "src": "../src/images/project2.png"
             }
         },
         {
-            "id": "7",
-            "project_name": "Gify Search",
+            "id": "1",
+            "project_name": "Random Quote Generator",
             "technologies": [
                 "JavaScript",
                 "HTML",
-                "CSS",
-                "Fetch API",
-                "React.js"
+                "CSS"
             ],
-            "live_link": "https://mk0b.github.io/react-gallery-app-project-7/#/horses",
-            "github_link": "https://github.com/mk0b/react-gallery-app-project-7",
+            "live_link": "https://mk0b.github.io/Random-Quote-Generator-Project-1/",
+            "github_link": "https://github.com/mk0b/Random-Quote-Generator-Project-1",
             "image": {
-                "name": "Gify Search Image",
-                "src": "../src/images/project7.png"
-            }
-        },
-        {
-            "id": "8",
-            "project_name": "SQL Library Manager",
-            "technologies": [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "Node.js",
-                "Express",
-                "SQLite3",
-                "Sequelize"
-            ],
-            "live_link": "",
-            "github_link": "https://github.com/mk0b/sql-library-manager-project-8",
-            "image": {
-                "name": "SQL Library Manager Image",
-                "src": "../src/images/project1.png"
-            }
-        },
-        {
-            "id": "9",
-            "project_name": "REST API",
-            "technologies": [
-                "JavaScript",
-                "Node.js",
-                "Express",
-                "SQLite3",
-                "Sequelize",
-                "Rest API"
-            ],
-            "github_link": "https://github.com/mk0b/rest-api-project-9",
-            "image": {
-                "name": "REST API Image",
-                "src": "../src/images/project1.png"
-            }
-        },
-        {
-            "id": "10",
-            "project_name": "Full Stack App with Rest API",
-            "technologies": [
-                "JavaScript",
-                "React.js",
-                "HTML",
-                "CSS",
-                "Node.js",
-                "Express",
-                "SQLite3",
-                "Sequelize",
-                "Rest API"
-            ],
-            "live_link": "",
-            "github_link": "https://github.com/mk0b/full-stack-react-rest-api-project-10",
-            "image": {
-                "name": "Full Stack App with Rest API Image",
+                "name": "Random Quote Generator Image",
                 "src": "../src/images/project1.png"
             }
         }
