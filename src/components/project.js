@@ -10,7 +10,7 @@ const Project = (props) => {
 
     return(
         <li>
-            <h3>{props.name}</h3>
+            <h3 style={{ textAlign: 'center' }}>{props.name}</h3>
             <Image imageData={props.imageData} />
         </li>
     );
