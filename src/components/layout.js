@@ -42,10 +42,27 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.rem`,
         }}
       >
+        <h2 className="my-work-header"
+          style={{
+            color: `rgb(52,71,86)`,
+            textAlign: 'center',
+            padding: '5px',
+          }}
+        >
+        My Work
+        </h2>
+        <hr style={{
+          color: `rgb(52,71,86)`,
+          borderTop: '1px solid',
+        }}/>
         <Tags />
         <main>
           <Projects />
         </main>
+        <hr style={{
+          color: `rgb(52,71,86)`,
+          borderTop: '1px solid',
+        }}/>
         <footer
           style={{ 
             color: `rgb(52,71,86)`,

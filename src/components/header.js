@@ -26,7 +26,7 @@ const Header = ({ siteTitle }) => (
           margin: 0,
           color: `#f6f6f6`,     
         }}>
-          {siteTitle}
+          Megan Katherine O'Brien
       </h1>
       <p
         style={{

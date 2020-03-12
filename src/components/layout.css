@@ -658,6 +658,10 @@ pre tt:after {
   text-align: center;
 }
 
+.tags {
+  padding: 5px;
+}
+
 .tags ul {
   list-style-type: none;
   padding-left: 0;
@@ -695,8 +699,6 @@ pre tt:after {
 }
 
 .project-container ul li {
-  width: 425px;
-  height: 400px;
   overflow: hidden;
   margin-bottom: 15px;
   padding: 15px;
