@@ -40,7 +40,7 @@ const Projects = () => {
     
     //use map to create a new array and pass through data to idv project.
     const projects = projectsArray.map(project => {
-        console.log(project.image);
+    
         return (
             <Project 
                 key={project.id} 
