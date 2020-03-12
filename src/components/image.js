@@ -10,9 +10,15 @@ import Img from 'gatsby-image';
  * */
 
 const Image = (props) => {
+  //setting up variables to pass into the static query to get the current image
+  const variables = {
+    image: props.image
+  }
+
+  //$image: String! $image
   const data = useStaticQuery(graphql`
     query {
-      image: file(relativePath: { eq: "project1.png" }) {
+      image: file(relativePath: { eq: "project4.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid

@@ -13,6 +13,7 @@ import Header from './header';
 import Emoji from './emoji';
 import Tags from './tags';
 import Projects from './projects';
+import Test from './test';
 import LinkedIn from '../images/linkedin.png';
 import GitHub from '../images/github_icon_2.svg';
 import Gatsby from '../images/gatsby-icon.png';
@@ -43,6 +44,7 @@ const Layout = ({ children }) => {
       >
         <Tags />
         <main>
+          <Test />
           <Projects />
         </main>
         <footer

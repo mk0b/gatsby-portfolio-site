@@ -14,7 +14,6 @@ const Projects = () => {
                     technologies
                     live_link
                     github_link
-                    image
                 }
             }
         }
