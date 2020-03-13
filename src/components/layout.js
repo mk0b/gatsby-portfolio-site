@@ -72,8 +72,10 @@ const Layout = ({ children }) => {
           © {new Date().getFullYear()}| Made with
           <Emoji symbol="💜" label="purple heart" />
           &
-          <div className="gatsby-icon">
-            <span><a href="https://www.gatsbyjs.org" target="blank"><img className="footer-icons" src={Gatsby} alt="Gatsby clickable logo."></img></a></span>
+          <div className="gatsby-icon-source-code-icon">
+            <span><a href="https://www.gatsbyjs.org" target="blank"><img className="footer-icons-left" src={Gatsby} alt="Gatsby clickable logo."></img></a></span>
+            | Source Code:
+            <span><a href="https://github.com/mk0b/gatsby-portfolio-site" target="blank"><img className="footer-icons-left" src={GitHub} alt="Github clickable logo."></img></a></span>
           </div>
           <div className="footer-icons-social">
             <span><a href="https://teamtreehouse.com/megankatherineobrien" target="blank"><img className="footer-icons" src={Treehouse} alt="Treehouse clickable logo."></img></a></span>
