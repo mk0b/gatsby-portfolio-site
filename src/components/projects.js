@@ -40,7 +40,6 @@ const Projects = () => {
     
     //use map to create a new array and pass through data to idv project.
     const projects = projectsArray.map(project => {
-        console.log('Projects level', project.technologies);
         return (
                 <Project 
                     key={project.id} 

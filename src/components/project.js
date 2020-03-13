@@ -15,7 +15,7 @@ const Project = (props) => {
 
     return(
         <li className="container">
-            <h3 style={{ textAlign: 'center' }}>{props.name}</h3>
+            <h3 style={{ textAlign: 'center', color: `rgb(52,71,86)` }}>{props.name}</h3>
                 <Image imageData={props.imageData} />
             <div className="overlay">
                 <span><a href={props.github_link} target="blank" className="overlay-icon">Source Code</a></span>
