@@ -8,10 +8,22 @@ import Image from './image';
 
 const Project = (props) => {
 
+    //going through technologies and putting them into an list
+    const technologies = props.technologies.map(item => {
+        return <li>{item}</li>
+    });
+
     return(
-        <li>
+        <li className="container">
             <h3 style={{ textAlign: 'center' }}>{props.name}</h3>
-            <Image imageData={props.imageData} />
+                <Image imageData={props.imageData} />
+            <div className="overlay">
+                <span><a href={props.github_link} target="blank" className="overlay-icon">Source Code</a></span>
+                <span><a href={props.live_link} target="blank" className="overlay-icon">Try Me!</a></span>
+                <ul className="technologies">
+                    {technologies}
+                </ul>
+            </div>
         </li>
     );
 };
