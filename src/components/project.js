@@ -18,7 +18,7 @@ const Project = (props) => {
             <h3 style={{ textAlign: 'center', color: `rgb(52,71,86)` }}>{props.name}</h3>
                 <Image imageData={props.imageData} />
             <div className="overlay">
-                <span><a href={props.github_link} target="blank" className="overlay-icon">Source Code</a></span>
+                <span><a href={props.github_link} target="blank" className="overlay-icon">Code</a></span>
                 <span><a href={props.live_link} target="blank" className="overlay-icon">Try Me!</a></span>
                 <ul className="technologies">
                     {technologies}

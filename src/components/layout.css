@@ -724,6 +724,7 @@ pre tt:after {
 
 .container {
   position: relative;
+  display: inline-block;
 }
 
 .overlay {
@@ -747,6 +748,36 @@ pre tt:after {
   display: center;
 }
 
+.overlay ul {
+  list-style-type: circle;
+  padding-left: 0;
+  text-align: center;
+}
+
+.overlay li {
+  
+}
+
+.overlay a {
+  display: block;
+  background: rgb(52,71,86);
+  border-radius: 8px;
+  padding: 8px;
+  color: #f6f6f6;
+  text-decoration: none;
+}
+
+.overlay span {
+  padding: 8px;
+  display: inline-block;
+  text-align: center;
+  
+}
+
+.overlay .active,
+.overlay a:hover {
+  background-color: #7984a7;
+}
 
 @media only screen and (max-width: 767px)  {
 
