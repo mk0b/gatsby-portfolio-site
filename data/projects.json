@@ -59,18 +59,19 @@
         },
         {
             "id": "7",
-            "project_name": "Gify Search",
+            "project_name": "Gify API Search",
             "technologies": [
                 "JavaScript",
                 "HTML",
                 "CSS",
                 "Fetch API",
-                "React.js"
+                "React.js",
+                "API"
             ],
             "live_link": "https://mk0b.github.io/react-gallery-app-project-7/#/horses",
             "github_link": "https://github.com/mk0b/react-gallery-app-project-7",
             "image": {
-                "name": "Gify Search Image",
+                "name": "Gify API Search Image",
                 "src": "../src/images/project7.png"
             }
         },
