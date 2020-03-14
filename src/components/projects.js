@@ -4,6 +4,10 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Project from './Project';
 
 const Projects = () => {
+
+    //fun console message
+    console.log('%c Welcome to my site, consider hiring me!', 'color: #7984a7; font-weight: bold;');
+
     //graphql call from allDataJSOn trying to get the sharp info on images.
     //did it this way based off this amazing thread that took me two days to find: https://github.com/gatsbyjs/gatsby/issues/8312 
     const projectData = useStaticQuery(graphql`
