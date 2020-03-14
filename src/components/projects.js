@@ -1,7 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import Project from './project';
+import Project from './Project';
 
 const Projects = () => {
     //graphql call from allDataJSOn trying to get the sharp info on images.

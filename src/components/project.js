@@ -1,14 +1,12 @@
 import React, { Fragment } from 'react';
 
-import Image from './image';
+import Image from './Image';
 
 //use gatsby image to improve the images I'm using. 
 //for each project in the projects array in projects.js this component will be called
 //and will generate the indv project cards.
 
 const Project = (props) => {
-
-    //if props.clickedTag is contained in the technologies array - display the project
 
     return(
         <li className="container">

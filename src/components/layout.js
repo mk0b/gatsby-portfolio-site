@@ -11,8 +11,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 import Header from './header';
 import Emoji from './emoji';
-import Tags from './tags';
-import Projects from './projects';
+import Projects from './Projects';
 
 import LinkedIn from '../images/linkedin.png';
 import GitHub from '../images/github_icon_2.svg';
