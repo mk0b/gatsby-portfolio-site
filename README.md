@@ -1,10 +1,10 @@
 # Megan Katherine O'Brien's Portfolio Site #
 
-My portfolio site I created using Gatsby and the tech listed below to showcase all of my code projects.
+My portfolio site I created using Gatsby and the tech listed below, to showcase all of my code projects.
 
 ## Technologies Used: ##
 
-- Gatsby Starter
+- Gatsby
 - JavaScript
 - React.js
 - GraphQL
@@ -13,4 +13,4 @@ My portfolio site I created using Gatsby and the tech listed below to showcase a
 
 ## How to view the site ##
 
-Live Site: 
+Live Site: https://mk0b.github.io/gatsby-portfolio-site/

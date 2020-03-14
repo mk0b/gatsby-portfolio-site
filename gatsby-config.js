@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    pathPrefix: `/gatsby-portfolio-site`,
     title: `My Work`,
     description: `Megan Katherine O'Brien's portfolio website.`,
     author: `Megan Katherine O'Brien`,
