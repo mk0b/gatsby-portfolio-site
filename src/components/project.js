@@ -6,6 +6,8 @@ import Image from './image';
 //for each project in the projects array in projects.js this component will be called
 //and will generate the indv project cards.
 
+//TODO: If live site string is empty only display source code.
+
 const Project = (props) => {
 
     return(
