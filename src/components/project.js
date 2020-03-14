@@ -8,6 +8,8 @@ import Image from './image';
 
 const Project = (props) => {
 
+    //if props.clickedTag is contained in the technologies array - display the project
+
     return(
         <li className="container">
             <h3 style={{ textAlign: 'center', color: `rgb(52,71,86)` }}>{props.name}</h3>

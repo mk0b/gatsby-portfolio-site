@@ -49,13 +49,12 @@ const Layout = ({ children }) => {
             padding: '5px',
           }}
         >
-        My Work
+        JavaScript Projects
         </h2>
         <hr style={{
           color: `rgb(52,71,86)`,
           borderTop: '1px solid',
         }}/>
-        <Tags />
         <main>
           <Projects />
         </main>
