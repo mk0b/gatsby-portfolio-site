@@ -742,12 +742,6 @@ pre tt:after {
   opacity: 1;
 }
 
-.overlay-icon {
-  color:  rgb(52,71,86);
-  font-size: 50px;
-  display: center;
-}
-
 .overlay ul {
   list-style-type: circle;
   padding-left: 0;
@@ -755,10 +749,13 @@ pre tt:after {
 }
 
 .overlay li {
-  
+  position: relative;
+  left: 0;
 }
 
 .overlay a {
+  position: relative;
+  right: 0;
   display: block;
   background: rgb(52,71,86);
   border-radius: 8px;
@@ -768,8 +765,7 @@ pre tt:after {
 }
 
 .overlay span {
-  padding: 8px;
-  display: inline-block;
+  padding: 10px;
   text-align: center;
   
 }
