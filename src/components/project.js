@@ -26,7 +26,6 @@ const Project = (props) => {
                         <span><a href={props.github_link} target="blank">Source Code</a></span>
                     </Fragment>
                 )}
-                
             </div>
         </li>
     );
