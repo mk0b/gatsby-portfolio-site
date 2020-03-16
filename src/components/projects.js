@@ -26,6 +26,8 @@ const Projects = () => {
                                 partialPath
                                 src {
                                     publicURL
+                                    relativePath
+                                    absolutePath
                                     childImageSharp {
                                         fixed {
                                             ...GatsbyImageSharpFixed
