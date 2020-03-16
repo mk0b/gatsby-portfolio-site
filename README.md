@@ -13,4 +13,4 @@ My portfolio site I created using Gatsby and the tech listed below, to showcase 
 
 ## How to view the site ##
 
-Live Site: https://mk0b.github.io/gatsby-portfolio-site/
+Live Site: www.megankatherineobrien.com
