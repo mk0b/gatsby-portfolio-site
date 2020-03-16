@@ -7,11 +7,11 @@ import Image from './Image';
 
 const Project = (props) => {
 
-    console.log('Image Data: ', props.imageData);
+    //console.log('Image Data: ', props.imageData);
     //console.log('src', props.imageData.src.childImageSharp.fixed.src);
     //console.log('publicURL: ', props.imageData.src.publicURL);
     //console.log('Fixed', props.imageData.src.childImageSharp.fixed);
-    
+
     return(
         <li className="container">
             <h3 style={{ textAlign: 'center', color: `rgb(52,71,86)` }}>{props.name}</h3>
