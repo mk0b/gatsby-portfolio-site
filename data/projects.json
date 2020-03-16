@@ -18,7 +18,8 @@
             "github_link": "https://github.com/mk0b/full-stack-react-rest-api-project-10",
             "image": {
                 "name": "Full Stack App with Rest API Image",
-                "src": "../src/images/project10.png"
+                "src": "../src/images/project10.png",
+                "partialPath": "project10.png"
             }
         },
         {
@@ -35,7 +36,8 @@
             "github_link": "https://github.com/mk0b/rest-api-project-9",
             "image": {
                 "name": "REST API Image",
-                "src": "../src/images/project9.png"
+                "src": "../src/images/project9.png",
+                "partialPath": "project9.png"
             }
         },
         {
@@ -54,7 +56,8 @@
             "github_link": "https://github.com/mk0b/sql-library-manager-project-8",
             "image": {
                 "name": "SQL Library Manager Image",
-                "src": "../src/images/project8.png"
+                "src": "../src/images/project8.png",
+                "partialPath": "project8.png"
             }
         },
         {
@@ -72,7 +75,8 @@
             "github_link": "https://github.com/mk0b/react-gallery-app-project-7",
             "image": {
                 "name": "Gify API Search Image",
-                "src": "../src/images/project7.png"
+                "src": "../src/images/project7.png",
+                "partialPath": "project7.png"
             }
         },
         {
@@ -88,7 +92,8 @@
             "github_link": "https://github.com/mk0b/Public-API-Requests-Project-5",
             "image": {
                 "name": "Public API Requests Image",
-                "src": "../src/images/project5.png"
+                "src": "../src/images/project5.png",
+                "partialPath": "project5.png"
             }
         },
         {
@@ -104,7 +109,8 @@
             "github_link": "https://github.com/mk0b/OOP-Game-Show-Project-4",
             "image": {
                 "name": "OOP Phrase Game Image",
-                "src": "../src/images/project4.png"
+                "src": "../src/images/project4.png",
+                "partialPath": "project4.png"
             }
         },
         {
@@ -120,7 +126,8 @@
             "github_link": "https://github.com/mk0b/Interactive-Form-Project-3",
             "image": {
                 "name": "Interactive Form Validation Image",
-                "src": "../src/images/project3.png"
+                "src": "../src/images/project3.png",
+                "partialPath": "project3.png"
             }
         },
         {
@@ -135,7 +142,8 @@
             "github_link": "https://github.com/mk0b/List-Pagination-and-Filtering-Project-2",
             "image": {
                 "name": "List Pagination and Filtering Image",
-                "src": "../src/images/project2.png"
+                "src": "../src/images/project2.png",
+                "partialPath": "project2.png"
             }
         },
         {
@@ -150,7 +158,8 @@
             "github_link": "https://github.com/mk0b/Random-Quote-Generator-Project-1",
             "image": {
                 "name": "Random Quote Generator Image",
-                "src": "../src/images/project1.png"
+                "src": "../src/images/project1.png",
+                "partialPath": "project1.png"
             }
         }
     ]

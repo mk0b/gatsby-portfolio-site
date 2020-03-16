@@ -13,7 +13,7 @@ const Project = (props) => {
     return(
         <li className="container">
             <h3 style={{ textAlign: 'center', color: `rgb(52,71,86)` }}>{props.name}</h3>
-            <img src={props.imageData.src.publicURL} alt={props.imageData.name} />
+            <img src={`/public/static/${props.imageData.partialPath}`} alt={props.imageData.name} />
             <div className="overlay">
                 {/*checking live link and if it's an empty string only display github link*/}
                 {props.live_link ? (

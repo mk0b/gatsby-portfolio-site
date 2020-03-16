@@ -23,6 +23,7 @@ const Projects = () => {
                             github_link
                             image {
                                 name
+                                partialPath
                                 src {
                                     publicURL
                                     childImageSharp {
