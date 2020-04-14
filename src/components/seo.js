@@ -28,7 +28,7 @@ function SEO({ lang, meta }) {
   )
 
   const metaDescription = site.siteMetadata.description;
-  console.log('Site metadeta from graphql query: ', site);
+  //console.log('Site metadeta from graphql query: ', site);
 
   return (
     <Helmet

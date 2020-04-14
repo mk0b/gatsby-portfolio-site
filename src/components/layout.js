@@ -6,7 +6,7 @@
  */
 
 import React from 'react';
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 
 import Header from './header';
@@ -29,8 +29,6 @@ const Layout = ({ children }) => {
       }
     }
   `)
-
-  console.log('Site Title in Layout: ', data.site.siteMetadata.title);
 
   return (
     <>
@@ -88,8 +86,8 @@ const Layout = ({ children }) => {
   )
 }
 
-Layout.propTypes = {
+/* Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+} */
 
 export default Layout;

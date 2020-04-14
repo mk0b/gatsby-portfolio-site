@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 
-import SEO from './Seo';
+import SEO from './SEO';
 
 import LinkedIn from '../images/linkedin.png';
 import GitHub from '../images/github_icon_2.svg';
