@@ -8,7 +8,9 @@
 import React from "react"
 //import PropTypes from "prop-types"
 import Helmet from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby";
+
+import featureImg from '../images/featureImg.png';
 
 function SEO({ lang, meta }) {
   const { site } = useStaticQuery(
@@ -29,6 +31,7 @@ function SEO({ lang, meta }) {
 
   const metaDescription = site.siteMetadata.description;
   //console.log('Site metadeta from graphql query: ', site);
+
 
   return (
     <Helmet
@@ -52,7 +55,7 @@ function SEO({ lang, meta }) {
         },
         {
           property: `og:image`,
-          content: site.siteMetadata.image,
+          content: featureImg,
         },
         {
           property: `og:type`,
