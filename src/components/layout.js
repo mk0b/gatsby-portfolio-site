@@ -30,6 +30,8 @@ const Layout = ({ children }) => {
     }
   `)
 
+  console.log('Site Title in Layout: ', data.site.siteMetadata.title);
+
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />

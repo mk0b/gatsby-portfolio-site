@@ -4,7 +4,8 @@ module.exports = {
     title: `Megan's Portfolio`,
     description: `Megan Katherine O'Brien's portfolio website.`,
     author: `Megan Katherine O'Brien`,
-    featureImg: `src/images/featureImg.png`,
+    url: `https://www.megankatherineobrien.com`,
+    image: `src/images/featureImg.png`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

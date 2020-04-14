@@ -6,11 +6,11 @@
  */
 
 import React from "react"
-import PropTypes from "prop-types"
+//import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title, featureImg }) {
+function SEO({ lang, meta }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -19,21 +19,23 @@ function SEO({ description, lang, meta, title, featureImg }) {
             title
             description
             author
-            featureImg
+            url
+            image
           }
         }
       }
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
+  const metaDescription = site.siteMetadata.description;
+  console.log('Site metadeta from graphql query: ', site);
 
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title}
+      title={site.siteMetadata.description}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
@@ -42,7 +44,7 @@ function SEO({ description, lang, meta, title, featureImg }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: site.siteMetadata.title,
         },
         {
           property: `og:description`,
@@ -50,7 +52,7 @@ function SEO({ description, lang, meta, title, featureImg }) {
         },
         {
           property: `og:image`,
-          content: featureImg,
+          content: site.siteMetadata.image,
         },
         {
           property: `og:type`,
@@ -66,7 +68,7 @@ function SEO({ description, lang, meta, title, featureImg }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: site.siteMetadata.title,
         },
         {
           name: `twitter:description`,
@@ -83,11 +85,11 @@ SEO.defaultProps = {
   description: ``,
 }
 
-SEO.propTypes = {
+/* SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
-}
+} */
 
 export default SEO

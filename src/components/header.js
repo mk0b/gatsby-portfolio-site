@@ -1,11 +1,15 @@
 import PropTypes from "prop-types";
 import React from "react";
 
+import SEO from './Seo';
+
 import LinkedIn from '../images/linkedin.png';
 import GitHub from '../images/github_icon_2.svg';
 import Treehouse from '../images/treehouse_icon.png';
 
 const Header = ({ siteTitle }) => (
+  <>
+  <SEO siteTitle={siteTitle} />
   <header
     style={{
       background: `rgb(52,71,86)`,
@@ -44,6 +48,7 @@ const Header = ({ siteTitle }) => (
           </div>
     </div>
   </header>
+  </>
 )
 
 Header.propTypes = {
