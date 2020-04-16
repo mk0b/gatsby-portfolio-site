@@ -7,10 +7,9 @@ import Image from './Image';
 
 const Project = (props) => {
     
-    console.log('Technologies: ', props.technologies);
-    console.log(typeof props.technologies);
+    //for now I removed sqlite from the tech lists to make things fit better
+    //TODO: Find a better solution. I'm thinking of putting every tech into it's own span and being able to style them separately to create a better visual.
     const technologies = props.technologies.join('  ');
-    console.log(technologies);
 
     return(
         <li className="container">

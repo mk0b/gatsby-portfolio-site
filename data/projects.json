@@ -7,7 +7,6 @@
                 "#reactjs",
                 "#nodejs",
                 "#express",
-                "#sqlite3",
                 "#sequelize",
                 "#restapi"
             ],
@@ -25,7 +24,6 @@
             "technologies": [
                 "#nodejs",
                 "#express",
-                "#sqlite3",
                 "#sequelize"
             ],
             "live_link": "",
