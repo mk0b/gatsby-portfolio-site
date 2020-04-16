@@ -6,16 +6,19 @@ import Image from './Image';
 //and will generate the indv project cards.
 
 const Project = (props) => {
-
-    //console.log('Image Data: ', props.imageData);
-    //console.log('src', props.imageData.src.childImageSharp.fixed.src);
-    //console.log('publicURL: ', props.imageData.src.publicURL);
-    //console.log('Fixed', props.imageData.src.childImageSharp.fixed);
+    
+    console.log('Technologies: ', props.technologies);
+    console.log(typeof props.technologies);
+    const technologies = props.technologies.join('  ');
+    console.log(technologies);
 
     return(
         <li className="container">
             <h3 style={{ textAlign: 'center', color: `rgb(52,71,86)` }}>{props.name}</h3>
             <Image imageData={props.imageData} />
+            <div className="technologies">
+                <h4>{technologies}</h4>
+            </div>
             <div className="overlay">
                 {/*checking live link and if it's an empty string only display github link*/}
                 {props.live_link ? (

@@ -4,15 +4,12 @@
             "id": "10",
             "project_name": "Full Stack App with Rest API",
             "technologies": [
-                "JavaScript",
-                "React.js",
-                "HTML",
-                "CSS",
-                "Node.js",
-                "Express",
-                "SQLite3",
-                "Sequelize",
-                "Rest API"
+                "#reactjs",
+                "#nodejs",
+                "#express",
+                "#sqlite3",
+                "#sequelize",
+                "#restapi"
             ],
             "live_link": "",
             "github_link": "https://github.com/mk0b/full-stack-react-rest-api-project-10",
@@ -23,34 +20,13 @@
             }
         },
         {
-            "id": "9",
-            "project_name": "REST API",
-            "technologies": [
-                "JavaScript",
-                "Node.js",
-                "Express",
-                "SQLite3",
-                "Sequelize",
-                "Rest API"
-            ],
-            "github_link": "https://github.com/mk0b/rest-api-project-9",
-            "image": {
-                "name": "REST API Image",
-                "src": "../src/images/project9.png",
-                "partialPath": "project9.png"
-            }
-        },
-        {
             "id": "8",
             "project_name": "SQL Library Manager",
             "technologies": [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "Node.js",
-                "Express",
-                "SQLite3",
-                "Sequelize"
+                "#nodejs",
+                "#express",
+                "#sqlite3",
+                "#sequelize"
             ],
             "live_link": "",
             "github_link": "https://github.com/mk0b/sql-library-manager-project-8",
@@ -64,12 +40,8 @@
             "id": "7",
             "project_name": "Gify API Search",
             "technologies": [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "Fetch API",
-                "React.js",
-                "API"
+                "#reactjs",
+                "#api"
             ],
             "live_link": "https://mk0b.github.io/react-gallery-app-project-7/#/horses",
             "github_link": "https://github.com/mk0b/react-gallery-app-project-7",
@@ -83,10 +55,7 @@
             "id": "5",
             "project_name": "Public API Requests",
             "technologies": [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "Fetch API"
+                "#api"
             ],
             "live_link": "https://mk0b.github.io/Public-API-Requests-Project-5/",
             "github_link": "https://github.com/mk0b/Public-API-Requests-Project-5",
@@ -100,10 +69,7 @@
             "id": "4",
             "project_name": "OOP Phrase Game",
             "technologies": [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "Object Oriented Programming"
+                "#objectorientedprogramming"
             ],
             "live_link": "https://mk0b.github.io/OOP-Game-Show-Project-4/",
             "github_link": "https://github.com/mk0b/OOP-Game-Show-Project-4",
@@ -111,55 +77,6 @@
                 "name": "OOP Phrase Game Image",
                 "src": "../src/images/project4.png",
                 "partialPath": "project4.png"
-            }
-        },
-        {
-            "id": "3",
-            "project_name": "Interactive Form Validation",
-            "technologies": [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "jQuery"
-            ],
-            "live_link": "https://mk0b.github.io/Interactive-Form-Project-3/",
-            "github_link": "https://github.com/mk0b/Interactive-Form-Project-3",
-            "image": {
-                "name": "Interactive Form Validation Image",
-                "src": "../src/images/project3.png",
-                "partialPath": "project3.png"
-            }
-        },
-        {
-            "id": "2",
-            "project_name": "List Pagination and Filtering",
-            "technologies": [
-                "JavaScript",
-                "HTML",
-                "CSS"
-            ],
-            "live_link": "https://mk0b.github.io/List-Pagination-and-Filtering-Project-2/",
-            "github_link": "https://github.com/mk0b/List-Pagination-and-Filtering-Project-2",
-            "image": {
-                "name": "List Pagination and Filtering Image",
-                "src": "../src/images/project2.png",
-                "partialPath": "project2.png"
-            }
-        },
-        {
-            "id": "1",
-            "project_name": "Random Quote Generator",
-            "technologies": [
-                "JavaScript",
-                "HTML",
-                "CSS"
-            ],
-            "live_link": "https://mk0b.github.io/Random-Quote-Generator-Project-1/",
-            "github_link": "https://github.com/mk0b/Random-Quote-Generator-Project-1",
-            "image": {
-                "name": "Random Quote Generator Image",
-                "src": "../src/images/project1.png",
-                "partialPath": "project1.png"
             }
         }
     ]
