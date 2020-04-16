@@ -776,6 +776,7 @@ pre tt:after {
 
 .technologies {
   text-align: center;
+  margin: 10px;
 }
 
 @media only screen and (max-width: 767px)  {
